@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+:root {
+  --accent: #ce6400;
+  --btn: #f1831b;
+  --secondary: #003b9b;
+}
+@theme {
+  --color-ax: var(--accent);
+  --color-btn: var(--btn);
+  --color-sec: var(--secondary);
+}
+
+html,
+body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.bo {
+  border: 1.5px solid red;
+}
+
+@utility cen {
+  @apply flex items-center justify-center;
+}
