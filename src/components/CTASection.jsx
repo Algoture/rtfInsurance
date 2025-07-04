@@ -1,9 +1,8 @@
-import { Mail, MapPin, Phone } from "lucide-react";
+import { ArrowRight, Mail, MapPin, Phone } from "lucide-react";
 
 export default function CTASection() {
   return (
-    <section
-      className="bg-[#1A307A] text-white py-20 px-4">
+    <section className="bg-[#1A307A] text-white py-20 px-4">
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="text-4xl font-bold mb-6">Ready to Get Protected?</h2>
         <p className="text-xl text-blue-100 mb-8">
@@ -13,13 +12,16 @@ export default function CTASection() {
         </p>
 
         <div className="flex justify-center space-x-4 mb-12">
-          <button className="bg-orange-500 hover:bg-orange-600 px-8 py-3">
-            Get Free Quote
+          <button className="bg-[#F7AD46] cen gap-1 text-sec px-8 py-3 rounded-md">
+            Get Free Quote{" "}
+            <span>
+              <ArrowRight />
+            </span>
           </button>
           <button
             variant="outline"
-            className="border-white text-white hover:bg-white hover:text-blue-900 px-8 py-3 bg-transparent">
-            Schedule Consultation
+            className="border-white text-white bg-[#F7AD46] cen gap-1 px-8 py-3 rounded-md">
+            +1 (555) 123-4567
           </button>
         </div>
 
